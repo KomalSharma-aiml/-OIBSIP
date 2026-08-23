@@ -1,13 +1,13 @@
-# -OIBSIP
+# 🔗 OIBSIP Data Science Internship Task-1
 Machine Learning project to classify Iris flowers using Logistic Regression, KNN, and Decision Tree.
 
-#  Iris Flower Classification using Machine Learning
+#  🔗 Iris Flower Classification using Machine Learning
 
 An end-to-end Machine Learning project that classifies Iris flowers into **Setosa, Versicolor, and Virginica** using 
 multiple classification algorithms. The project covers the complete ML workflow, including Exploratory Data Analysis (EDA), 
 feature scaling, model training, evaluation, cross-validation, and prediction.
 
-## Project Summary
+## 🔗 Project Summary
 
 The objective of this project is to predict the species of an Iris flower based on four numerical features:
 
@@ -19,14 +19,14 @@ The objective of this project is to predict the species of an Iris flower based 
 The notebook demonstrates how different classification algorithms perform on the Iris dataset and compares their results using 
 multiple evaluation techniques.
 
-## Dataset
+## 🔗 Dataset
 
 * **Source:** Scikit-learn `load_iris()`
 * **Total Samples:** 150
 * **Features:** 4 numerical features
 * **Classes:** 3 (Setosa, Versicolor, Virginica)
 
-## Technologies Used
+## 🔗 Tech Stack:
 
 * Python
 * Pandas
@@ -35,7 +35,7 @@ multiple evaluation techniques.
 * Seaborn
 * Scikit-learn
 
-## Project Workflow
+## 🔗 Project Workflow
 
 1. Load and inspect the Iris dataset.
 2. Perform Exploratory Data Analysis (EDA).
@@ -48,7 +48,7 @@ multiple evaluation techniques.
 9. Make predictions with probability scores.
 10. Interpret feature importance using Decision Tree.
 
-## Exploratory Data Analysis
+## 🔗 Exploratory Data Analysis
 
 The notebook includes:
 
@@ -60,7 +60,7 @@ The notebook includes:
 
 These visualizations help understand feature relationships and class separation before training the models.
 
-## Machine Learning Models
+## 🔗 Machine Learning Models
 
 The following models were trained and compared:
 
@@ -68,7 +68,7 @@ The following models were trained and compared:
 * K-Nearest Neighbors (KNN)
 * Decision Tree Classifier
 
-## Additional Techniques Implemented
+## 🔗 Additional Techniques Implemented
 
 * StandardScaler
 * 5-Fold Cross Validation
@@ -76,7 +76,7 @@ The following models were trained and compared:
 * Prediction Probability
 * Feature Importance Analysis
 
-## Model Evaluation
+## 🔗 Model Evaluation
 
 The models were evaluated using:
 
@@ -88,7 +88,7 @@ The models were evaluated using:
 
 The notebook compares all three models to identify their performance on unseen data.
 
-## Key Features of This Project
+## 🔗 Key Features of This Project
 
 * Complete EDA before model training.
 * Feature scaling using StandardScaler.
@@ -98,7 +98,7 @@ The notebook compares all three models to identify their performance on unseen d
 * Prediction demo with probability scores.
 * Feature importance analysis.
 
-## Key Learnings
+## 🔗 Key Learnings
 
 Through this project, I practiced:
 
@@ -110,3 +110,12 @@ Through this project, I practiced:
 * Cross-validation
 * Decision Tree interpretation
 * Predicting new samples with confidence scores
+
+### 🔗 How to Run
+
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Install the required dependencies using:
+   pip install -r requirements.txt
+4. Open `Iris_Flower_Classification.ipynb` in Jupyter Notebook or Google Colab.
+5. Run all cells sequentially to reproduce the analysis and classification results.
